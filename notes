@@ -1,0 +1,39 @@
+// Setup Steps:
+git init
+touch server.js .gitignore   
+npm intit -y
+node_modules >> .gitignore
+
+// Packages to install
+ npm i express   
+
+// Seuelize stup steps
+ npm i sequelize pg rowdy-logger  
+   sequelize init  
+Update config.jspon 
+    change dialect to postgres
+    update database name
+
+// General
+express application handles the server
+
+npm start to run files (package.jspon)
+
+by default, browser runs get request to the root directory
+
+ctrl c to kill terminal
+-run npm start again
+
+run nodemon to have the server automatically update
+
+making a restful api for our web app
+
+CRUD    - Action            - HTTP verbs  - Endpoint
+========================================================
+CREATE  - Create            - POST        - /resource
+READ    - Show (Read one)   - GET         - /resource
+READ    - Index (Read all)  - GET         - /resource/id
+UPDATE  - Update            - PUT         - /resource/id
+DELETE  - Delete            - DELETE      - /resource/id
+
+rowdy -logger
