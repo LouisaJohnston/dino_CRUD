@@ -36,4 +36,10 @@ READ    - Index (Read all)  - GET         - /resource/id
 UPDATE  - Update            - PUT         - /resource/id
 DELETE  - Delete            - DELETE      - /resource/id
 
-rowdy -logger
+// Sequelize model steps
+sequelize model:generate --name=dino --attributes  name:string,type:string
+sequelize db:migrate
+
+create js file for postgres functions
+
+/dinos on the end of the url to see the dinos
